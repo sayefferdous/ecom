@@ -1,0 +1,27 @@
+.dark-color{
+    background: #333333;
+}
+
+.navbar{
+    box-shadow: 0 0 0 0 !important;
+    font-size: 13px !important;
+    padding: 3px;
+}
+.dropdown-menu{
+    min-width: 160px;
+    left: 2px !important;
+    font-size: 14px !important;
+    background-color: #333 !important;
+    background-clip: padding-box;
+    border-radius: 0px;
+    border: none !important;
+    /* padding: 2px,0px !important; */
+}
+
+.navbar .dropdown-menu a {
+    color: aliceblue !important;
+    padding: 0px 10px !important;
+}
+.navbar .dropdown-menu a:hover{
+    background: #b5a766;
+}
