@@ -2,10 +2,12 @@
     background: #333333;
 }
 
+
 .navbar{
     box-shadow: 0 0 0 0 !important;
     font-size: 13px !important;
     padding: 3px;
+
 }
 .dropdown-menu{
     min-width: 160px;
@@ -24,4 +26,12 @@
 }
 .navbar .dropdown-menu a:hover{
     background: #b5a766;
+}
+
+/* social link */
+.social-links a {
+    margin: 0 2px;
+    display: inline-block;
+    padding: 5px 5px 3px 5px;
+    border: 1px solid transparent;
 }
