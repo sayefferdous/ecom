@@ -29,9 +29,36 @@
 }
 
 /* social link */
-.social-links a {
-    margin: 0 2px;
-    display: inline-block;
-    padding: 5px 5px 3px 5px;
-    border: 1px solid transparent;
+
+/* .social-link a { 
+
+} */
+
+.cart-btn{
+    width:300px;
+    border:0px;
+    padding:2px 50px;
+    /* background:transparent; */
+    color: #B5A766;
+    padding-bottom:-10px;
+    cursor: pointer;
+    /* border:1px solid #B5A766 !important; */
+}
+
+.cart-btn span{
+    line-height: 50px;
+}
+
+.header{
+    margin-top: 50px; 
+}
+
+.cart-dropdown{
+    background: #fff !important;
+    border:1px solid #B5A766 !important;
+    width: 100%;
+}
+
+.border-onclick{
+    border:1px solid #B5A766 !important;
 }
