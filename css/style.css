@@ -68,3 +68,17 @@
 .catagory-nav ul li a{
     color: #b5a766;
 }
+.cat-menu{
+   top:10px !important;
+   background-color: antiquewhite !important;
+}
+.feature-title{
+    color: #333;
+    font-size: 32px;
+    font-weight: 350;
+}
+.feature-title span{
+    border-top: 1px solid #b5a766;
+    border-bottom: 2px solid #ddd;
+    padding: 5px;
+}
