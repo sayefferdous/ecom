@@ -136,36 +136,32 @@
 
       <!-- navbar menu -->
 
-      <section id="" class="mt-4 border">
+      <section class="mt-4 border">
         <div class="container">
           <div class="catagory-nav"> 
-            <ul class="list-unstyled pt-3 pb-1">
-              <li class="cat-item">
+            <ul class="list-unstyled m-2">
+              <li class="border-right p-2">
                 <!-- Basic dropdown -->
-                <a href="#" class="" type="text" data-toggle="dropdown" aria-haspopup="true"
-                  aria-expanded="false">Shoes</a>
-                
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-                </div>
+                <a href="#" type="text" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shoes</a>
+                    <div class="dropdown-menu cat-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
                 <!-- Basic dropdown -->
               </li>
               <li class="p-2 border-right">
                   <!-- Basic dropdown -->
-                  <a href="#" type="text" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">Pants</a>
-                  
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                  </div>
+                  <a href="#" type="text" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pants</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </div>
                   <!-- Basic dropdown -->
                 </li>
                 <li class="p-2 border-right">
@@ -210,7 +206,7 @@
                         </div>
                         <!-- Basic dropdown -->
                       </li>
-                      <li class="p-2">
+                      <li class="p-2 border-right">
                           <!-- Basic dropdown -->
                           <a href="#" type="text" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Bags</a>
@@ -259,6 +255,60 @@
 
 
 
+    </section>
+
+    <!------------carousel catagory---------->
+
+    <section>
+              <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="view">
+                <img class="d-block w-100" src="img/slide-1-2048x640.jpg"
+                  alt="First slide">
+                <!-- <div class="mask rgba-black-light"></div> -->
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive" style="color: black;">Light mask</h3>
+                <p style="color: black">First text</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="img/slide-2-2048x640.jpg"
+                  alt="Second slide">
+                <!-- <div class="mask rgba-black-strong"></div> -->
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Secondary text</p>
+              </div>
+            </div>
+
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
     </section>
 
 

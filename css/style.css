@@ -68,17 +68,3 @@
 .catagory-nav ul li a{
     color: #b5a766;
 }
-/* .catagory-nav ul li a:hover{
-    color: #fff;
-    background-color: #b5a766;
-
-} */
-/* #catalog{
-    border-top: 1px solid #E6E6E6;
-    border-bottom: 1px solid #E6E6E6;
-
-} */
-.cat-item{
-    border-right: 1px solid black;
-    padding: 18px;
-}
