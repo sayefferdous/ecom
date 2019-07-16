@@ -88,7 +88,7 @@
     padding: 4px 22px !important;
 } */
 
-.product-btn-group{
+/* .product-btn-group{
     width:100% !important;
     background:red;
     margin: 0px;
@@ -107,32 +107,36 @@
     background: #B5A766;
     padding: 6px 21px;
     border-right:1px solid white;
+} */
+
+
+.crt-bttn{
+    width: 100%;
 }
 
-
-
-/* 
 .bttn1{
     background: #b5a766;
     color: #fff;
     font-size: 12px;
-    width:0% !important;
-    padding:6px 20px;
+    font-weight: bold;
+    width: 60%;
+    /* padding:20px 36px; */
     
 }
  .bttn2{
     background: #b5a766;
     color: #fff;
     font-size: 12px;
-    width:15% !important;
-    padding:6px 10px;
+    font-weight: bold;
+    width: 20%;
+    /* padding:6px 10px; */
    
 }
  .bttn3{
     background: #b5a766;
     color: #fff;
     font-size: 12px;
-    width:15% !important;
-    padding:6px 10px;
-} */
+    width: 20%;
+    /* padding:6px 10px; */
+}
 
