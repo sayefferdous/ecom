@@ -28,10 +28,13 @@
     background: #b5a766;
 }
 
-/* social link */
-
-/* .social-link a { 
-
+/* .twitter span i{
+    color: aqua;
+}
+.facebook :hover{
+    background-color: #B5A766 !important;
+    color: #fff;
+    border: 1px solid #B5A766;
 } */
 
 .cart-btn{
@@ -140,3 +143,24 @@
     /* padding:6px 10px; */
 }
 
+.price{
+    color: #b5a766;
+    font-size: 16px;
+    font-weight: 600;
+}
+.price-old{
+    text-decoration: line-through;
+    color: #99999C;
+    font-size: 16px;
+    margin-left: 6px;
+    font-weight: normal;
+}
+.price-tax{
+    font-size: 14px;
+    color: #999;
+    font-weight: bolder;
+}
+.card-title strong a{
+    color: #b5a766;
+    font-size: 23px;
+}
