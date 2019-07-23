@@ -287,5 +287,35 @@ body{
 }
 .about-card-text{
     font-family: 'Open Sans', sans-serif;
+    font-size: 12px !important;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.about-us-bttn{
+    padding: 8px 15px;
+    background-color: #b5a766;
+    color: #ececec;
+    margin: 0px
+
+}
+.about-us-bttn:hover{
+    color: #ddd;
+    cursor: pointer;
+}
+.news-input{
     font-size: 12px;
+}
+.news-bttn{
+    padding: 5px 13px !important;
+    font-size: 19px !important;
+    background-color: #fff !important;
+    border: 1px solid #b5a766 !important;
+    color: #b5a766;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 11px 0px !important; 
+}
+.news-bttn:hover{
+    color: #fff !important;
+    background-color: #b5a766 !important;
 }
