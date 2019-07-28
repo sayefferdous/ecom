@@ -73,23 +73,54 @@ body{
 .border-onclick{
     border:1px solid #B5A766 !important;
 }
+
+
+/* last navbar */
+
+
+
+.catagory-nav ul
+{
+    margin: 0;
+    padding: 10px;
+}
+
+
 .catagory-nav ul li{
     display: inline;
+    padding:10px;
+   
+   
 }
 .catagory-nav ul li a{
     color: #b5a766;
+   
 }
+
 .cat-menu{
    /* top:10px !important; */
-   background-color: antiquewhite !important;
+   background-color: greenyellow !important;
+  
+  
+
 }
 
-/* ------------nav-bar hover ------------ */
-
+.catagory-nav ul li a{
+    color: #b5a766;
+   
+}
 
 .navitem-down:hover>.dropdown-menu{
     display: block;
 }
+
+
+
+
+
+/* ------------nav-bar hover ------------ */
+
+
 
 /* ------------carosoul icon------------- */
 .caroshin{
@@ -398,8 +429,33 @@ body{
     }
 }
 
-@media only screen and (max-width: 640) and (min-width: 360px) {
-   .media-logo1{
+@media only screen and (max-width: 490px) and (min-width: 280px)  {
+
+    #top-bar ul > li a:nth-child(1) > span{
+           display: none;
+    }
+
+    .social-link{
+       display: none;
+   }
+
+   /* .social-link a span {
+       margin-right: 5px;
+
+   } */
+
+   .media-logo{
+       margin-bottom: 10px;
       
+     
+   }
+   /* .media-logo1{
+       justify-content: center;
+   } */
+   /* .media-logo1 > i{
+       margin-left: 15px;
+   } */
+   .media-logo1 > span{
+    margin-right: 15px;
    }
 }
